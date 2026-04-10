@@ -1,0 +1,52 @@
+# --- Environnements Virtuels ---
+venv/
+.venv/
+
+# --- MLflow & Expérimentations ---
+# Très important : évite de stocker les runs locaux sur GitHub
+mlruns/
+mlruns.db
+.mlflow/
+outputs/
+
+# --- Données (Data) ---
+# On ne versionne jamais les données brutes ou traitées sur Git
+data/
+raw_data/
+processed_data/
+*.csv
+*.parquet
+*.json
+*.sql
+*.sqlite
+
+# --- Modèles & Artifacts ---
+# Les modèles entraînés (.pkl, .h5, .onnx) sont trop lourds pour Git
+models/
+*.pkl
+*.h5
+*.joblib
+*.pth
+*.pb
+
+# --- Configuration & Sécurité ---
+.env
+secrets.yaml
+credentials.json
+*.log
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.tox/
+.mypy_cache/
+
+# --- IDE (Visual Studio Code & OS) ---
+
+mlartifacts/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
