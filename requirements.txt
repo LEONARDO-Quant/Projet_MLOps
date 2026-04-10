@@ -1,0 +1,9 @@
+mlflow
+setuptools
+xgboost
+pandas
+seaborn
+matplotlib.pyplot
+sklearn
+os
+numpy
