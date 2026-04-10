@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import xgboost as xgb
 import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
