@@ -160,7 +160,7 @@ with tab3:
     - **Dette totale (`total_debt_outstanding`)** : Cumul de toutes les dettes en cours du client (crédits conso, immobilier, revolving, etc.).
     - **Revenu annuel (`income`)** : Salaire et autres revenus déclarés sur une année. Un revenu élevé compense souvent une dette importante.
     - **Années d'emploi (`years_employed`)** : Ancienneté dans le poste actuel ou stabilité professionnelle. Plus elle est élevée, plus le risque diminue.
-    - **Score FICO (`fico_score`)** : Note de solvabilité (entre 300 et 850). C'est l'indicateur standard de la fiabilité d'un emprunteur.
-    ---
+    - **Score FICO (`fico_score`)** : Note de solvabilité (entre 300 et 850). C'est l'indicateur standard de la fiabilité d'un emprunteur.    
+                ---
     *Note : Toutes les variables sont normalisées avant d'être envoyées au modèle XGBoost.*
     """)
