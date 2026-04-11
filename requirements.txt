@@ -18,3 +18,8 @@ seaborn
 
 # --- Tests ---
 pytest
+
+# --- Qualité de code ---
+black
+pylint
+pytest-cov
