@@ -1,0 +1,36 @@
+# Environnement virtuel 
+.venv/
+venv/
+env/
+bin/
+lib/
+include/
+
+# Cache Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Git
+.git/
+.gitignore
+
+# Configuration CI/CD (GitHub Actions n'a pas besoin d'être dans l'image finale)
+.github/
+
+# Tests
+tests/
+test.py
+.pytest_cache/
+
+# Streamlit (Fichiers temporaires)
+.streamlit/config.toml
+
+# Système (Mac/Windows)
+.DS_Store
+Thumbs.db
+
+# Fichiers de données volumineux ou temporaires (si applicable)
+*.log
+*.csv
