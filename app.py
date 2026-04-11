@@ -37,9 +37,9 @@ st.markdown("""
 # 2. CHARGEMENT DES ASSETS
 @st.cache_resource
 def load_assets():
-    model = joblib.load('xgb_model.pkl')
-    scaler = joblib.load('scaler.pkl')
-    return model, scaler
+    loaded_model = joblib.load('xgb_model.pkl')
+    loaded_scaler = joblib.load('scaler.pkl')
+    return loaded_model, loaded_scaler
 
 model, scaler = load_assets()
 feature_names = ['loan_amt_outstanding', 'total_debt_outstanding', 'income', 'years_employed', 'fico_score']
@@ -72,9 +72,9 @@ with tab1:
         with col_left:
             # BLOC 1 : Verdict (Texte)
             if pred == 1:
-                st.markdown(f'<div class="result-box" style="background-color: #ffebee; color: #c62828;">❌ CRÉDIT REFUSÉ</div>', unsafe_allow_html=True)
+                st.markdown('<div class="result-box" style="background-color: #ffebee; color: #c62828;">❌ CRÉDIT REFUSÉ</div>', unsafe_allow_html=True)
             else:
-                st.markdown(f'<div class="result-box" style="background-color: #e8f5e9; color: #2e7d32;">✅ CRÉDIT ACCORDÉ</div>', unsafe_allow_html=True)
+                st.markdown('<div class="result-box" style="background-color: #e8f5e9; color: #2e7d32;">✅ CRÉDIT ACCORDÉ</div>', unsafe_allow_html=True)
             
             # BLOC 2 : Probabilité (Chiffres - Même taille que le verdict)
             st.markdown(f'<div class="result-box" style="background-color: #f1f3f4; color: #3c4043;">Risque : {prob:.2%}</div>', unsafe_allow_html=True)
