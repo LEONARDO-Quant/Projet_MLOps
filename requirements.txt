@@ -1,9 +1,20 @@
+# --- Base et UI ---
+streamlit
+
+# --- MLOps & Gestion de modèle ---
 mlflow
+joblib
 setuptools
+
+# --- Machine Learning & Inférence ---
 xgboost
+scikit-learn
 pandas
-seaborn
-matplotlib.pyplot
-sklearn
-os
 numpy
+
+# --- Visualisation ---
+matplotlib
+seaborn
+
+# --- Tests ---
+pytest
