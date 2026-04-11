@@ -1,3 +1,5 @@
+'''Application servant à la démonstration de l'inférence du modèle XGBoost pour l'analyse de risque de crédit.'''
+
 import streamlit as st
 import pandas as pd
 import numpy as np
