@@ -25,7 +25,7 @@ jobs:
       - name: Set up Python 3.12
         uses: actions/setup-python@v4
         with:
-          python-version: '3.12.5'
+          python-version: '3.12'
 
       - name: Install dependencies
         run: |
@@ -39,7 +39,7 @@ jobs:
       - name: Lint with Pylint
         run: |
           # On ignore les erreurs de refactoring (R) et de convention (C) comme demandé
-          pylint --disable=R,C app.py || true
+          pylint --disable=R,C app.py || exit 0
 
       - name: Test with Pytest
         run: |
