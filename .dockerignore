@@ -25,7 +25,7 @@ test.py
 .pytest_cache/
 
 # Streamlit (Fichiers temporaires)
-.streamlit/config.toml
+
 
 # Système (Mac/Windows)
 .DS_Store
