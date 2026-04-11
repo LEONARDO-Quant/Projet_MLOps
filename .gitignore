@@ -23,7 +23,6 @@ processed_data/
 # --- Modèles & Artifacts ---
 # Les modèles entraînés (.pkl, .h5, .onnx) sont trop lourds pour Git
 models/
-*.pkl
 *.h5
 *.joblib
 *.pth
