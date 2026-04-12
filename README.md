@@ -73,7 +73,7 @@ Quatre modèles ont été mis en compétition et suivis via **MLflow** :
 
 **Métriques clés :** Focus sur le **Recall** (pour minimiser les faux négatifs) et l'**AUC-ROC**.
 <br>
-
+<br>
 
 
 ## 💻 Paramètres de l'Application
