@@ -27,7 +27,7 @@
 ## 🚀 Présentation du Projet
 Ce projet implémente une démarche **End-to-End (E2E)** pour prédire le risque de défaut de paiement. L'application est conçue comme un outil d'aide à la décision pour les conseillers bancaires, permettant d'évaluer la solvabilité via le score FICO et d'autres indicateurs financiers. L'application permet aux conseillers bancaires de saisir les informations financières d'un client pour obtenir instantanément une probabilité de défaut, accompagnée d'une explication des variables déterminantes.
 
-* **Lien de l'application :** `http://35.181.169.159:8501/`
+* **Lien de l'application :** `http://13.38.74.186:8501/`
 <br>
 
 
