@@ -3,6 +3,7 @@
 </p> 
 
 
+
 # 🏦 Bank Default Prediction : End-to-End MLOps Project
 > **Project developed for the "Sorbonne Data Analytics" Professional Graduate Degree at Université Paris 1 Panthéon-Sorbonne.**
 
