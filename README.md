@@ -27,7 +27,7 @@
 ## 🚀 Présentation du Projet
 Ce projet implémente une démarche **End-to-End (E2E)** pour prédire le risque de défaut de paiement. L'application est conçue comme un outil d'aide à la décision pour les conseillers bancaires, permettant d'évaluer la solvabilité via le score FICO et d'autres indicateurs financiers.
 
-* **Lien de l'application :** `http://TON-IP-OU-DNS:5000`
+* **Lien de l'application :** `http://35.181.169.159:8501/`
 
 ## 📊 Phase d'Expérimentation (MLflow)
 Avant le déploiement, une phase comparative a été menée sur 4 modèles :
@@ -42,7 +42,7 @@ Le déploiement est entièrement automatisé pour garantir une mise en productio
 2. **CI/CD (GitHub Actions) :** - Build automatique de l'image lors d'un `git push`.
    - Stockage sur **Amazon ECR**.
    - Déploiement "Rolling Update" sur **Amazon ECS (Fargate)**.
-3. **Monitoring :** Gestion des logs via AWS CloudWatch.
+3. **Monitoring :** Gestion des logs **
 
 ## 💻 Paramètres de l'Application
 L'interface Streamlit permet de simuler un profil client avec les variables suivantes :
