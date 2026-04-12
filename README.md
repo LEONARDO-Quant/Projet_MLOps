@@ -13,16 +13,13 @@
 
 ### 🛠️ Tech Stack & MLOps Pipeline
 
-![ML Focus](https://img.shields.io/badge/Focus-Bank_Default_Prediction-E11922?style=for-the-badge&logo=target&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![ML Models](https://img.shields.io/badge/Models-XGBoost_%7C_Random_Forest_%7C_MLflow-blueviolet?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
 
 ![Docker](https://img.shields.io/badge/Container-Docker_Desktop_%7C_Hub-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/Pipeline-GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![AWS](https://img.shields.io/badge/Cloud-AWS_ECS_Fargate_%7C_ECR-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Version](https://img.shields.io/badge/VCS-Git_%7C_GitHub-F05033?style=for-the-badge&logo=git&logoColor=white)
 ![UI](https://img.shields.io/badge/Interface-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![ML Models](https://img.shields.io/badge/Models-XGBoost_%7C_Random_Forest_%7C_MLflow-blueviolet?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 
 <br>
