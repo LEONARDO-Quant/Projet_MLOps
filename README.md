@@ -49,14 +49,6 @@ L'interface Streamlit permet de simuler un profil client avec les variables suiv
 * **Dette totale**, **Revenu annuel**, **Années d'ancienneté**, **Score FICO**.
 * **Output :** Probabilité de défaut, analyse des variables déterminantes et commentaire automatisé.
 
----
-*Projet réalisé dans le cadre du module MLOps - Panthéon-Sorbonne.*
-
-![NVIDIA](https://img.shields.io/badge/Focus-NVIDIA_Returns-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![ML](https://img.shields.io/badge/Machine_Learning-XGBoost_%7C_LSTM_%7C_ARIMAX-blueviolet?style=for-the-badge)
-
-
 
 Ce projet consiste en la mise en place d'une solution complète de Machine Learning (E2E) pour prédire le risque de défaut de paiement des clients bancaires. L'objectif est de fournir un outil d'aide à la décision intuitif, déployé via une architecture cloud robuste.
 
@@ -98,11 +90,7 @@ Le projet implémente une démarche CI/CD automatisée :
     * Déploie automatiquement la nouvelle version sur **Amazon ECS (Fargate)**.
 4.  **Hébergement :** L'application est servie sur le port 8501 via AWS.
 
----
 
-## 💻 Installation Locale
-
-Pour faire tourner le projet localement :
 
 1. **Cloner le projet :**
    ```bash
